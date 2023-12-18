@@ -237,9 +237,9 @@ dependencies = [
 
 [[package]]
 name = "ctor"
-version = "0.2.2"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1586fa608b1dab41f667475b4a41faec5ba680aee428bfa5de4ea520fdc6e901"
+checksum = "30d2b3721e861707777e3195b0158f950ae6dc4a27e4d02ff9f67e3eb3de199e"
 dependencies = [
  "quote",
  "syn 2.0.18",
@@ -1192,7 +1192,7 @@ version = "20.0.0-rc2"
 dependencies = [
  "arbitrary",
  "bytes-lit",
- "ctor 0.2.2",
+ "ctor 0.2.6",
  "ed25519-dalek",
  "hex",
  "proptest",
